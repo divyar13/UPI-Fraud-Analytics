@@ -1,2 +1,39 @@
 # UPI-Fraud-Analytics
-This project leverages machine learning to detect fraudulent UPI transactions in real-time. 
+Overview
+
+UPI Fraud Analytics is a machine learning project to detect fraudulent UPI transactions in real-time, ensuring secure digital payments.
+
+Features
+
+Real-time fraud detection
+
+Pattern recognition using ML models
+
+Anomaly detection for unusual transactions
+
+Interactive UI with Streamlit
+
+Tech Stack
+
+Language: Python 3.12.3
+
+Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, Streamlit
+
+Tools: Jupyter Notebook, Git
+
+Dataset
+
+Includes:
+
+Transaction details (ID, amount, type, timestamp, etc.)
+
+Fraud labels (Fraud/Not Fraud)
+
+Note: Synthetic data used for development.
+Workflow
+
+Data Preprocessing: Clean data, create features.
+
+Modeling: Train ML models, evaluate with metrics.
+
+Deployment: Visualize results via Streamlit.
